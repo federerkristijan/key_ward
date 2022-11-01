@@ -1,20 +1,22 @@
 import React from "react";
-import { BrowserRouter, Route, Routes, Outlet } from "react-router";
+import { BrowserRouter as Router, Routes, Route, Outlet } from "react-router-dom";
 
-import Home from "./views";
+import Home from "./views/Home";
 import "./App.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    <>
       <div className="App">
-        <Routes>
-          <Route path="/" element={<Layout />}>
-            <Route path="/" element={<Home />} />
-          </Route>
-        </Routes>
+        <Router>
+          <Routes>
+            <Route path="/" element={<Layout />}>
+              <Route path="/" element={<Home />} />
+            </Route>
+          </Routes>
+        </Router>
       </div>
-    </BrowserRouter>
+    </>
   );
 
   function Layout() {
