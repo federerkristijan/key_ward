@@ -1,5 +1,5 @@
 import React from 'react'
-import SolarSystem from '../components/SolarSystem';
+import SolarSystem from '../SolarSystem/SolarSystem';
 
 const Home = () => {
 
