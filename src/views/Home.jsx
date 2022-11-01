@@ -8,13 +8,14 @@ import sunTexture from "./textures/sun.jpg";
 import "./styles.css";
 
 const Home = () => {
+  const [dialogData, setDialogData] = useState(null);
+  const hideDialog = () => {
+    setDialogData(null);
+    };
+
   return (
     <div className='Home'>
       <div className="solarAnimation">
-    const [dialogData, setDialogData] = useState(null);
-    const hideDialog = () => {
-      setDialogData(null);
-      };
     return (
       <>
         <a
@@ -42,7 +43,7 @@ const Home = () => {
         </Canvas>
       </>
     );
-  }
+
   function Sun() {
     const texture = useLoader(THREE.TextureLoader, sunTexture);
     return (
