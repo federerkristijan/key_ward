@@ -1,26 +1,24 @@
 import React from "react";
 // creadits to https://www.npmjs.com/package/react-planet/v/1.0.1
 import { Planet } from "react-planet";
+import Aero from "../views/Aero";
+import Center from "../views/Center";
+import Hydro from "../views/Hydro";
+
+
 
 const Planets = () => {
   return (
     <Planet
-      centerContent={
-        <div
-          style={{
-            height: 120,
-            width: 120,
-            borderRadius: "50%",
-            backgroundColor: "#1da8a4",
-          }}
-        />
-      }
+      centerContent={<Center/>}
       orbitRadius={120}
       hideOrbit={false}
       autoClose
       rotation={105}
     >
-      <div
+      <Hydro />
+      <Aero />
+      {/* <div
         style={{
           height: 70,
           width: 70,
@@ -28,8 +26,8 @@ const Planets = () => {
           backgroundColor: "#9257ad",
           margin: "2rem",
         }}
-      />
-      <div
+      /> */}
+      {/* <div
         style={{
           height: 90,
           width: 80,
@@ -37,7 +35,7 @@ const Planets = () => {
           background: "bisque",
           margin: "2rem",
         }}
-      />
+      /> */}
     </Planet>
   );
 };
