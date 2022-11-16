@@ -35,6 +35,7 @@ const Planets = () => {
           width: 70,
           borderRadius: "50%",
           backgroundColor: "#9257ad",
+          margin: "4rem"
         }}
       />
       <div
@@ -43,6 +44,7 @@ const Planets = () => {
           width: 70,
           borderRadius: "50%",
           backgroundColor: "#9257ad",
+          margin: "4rem"
         }}
       />
     </Planet>
