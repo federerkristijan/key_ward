@@ -1,5 +1,5 @@
 import React from 'react'
-import SolarSystem from '../SolarSystem/SolarSystem';
+// import SolarSystem from '../SolarSystem/SolarSystem';
 
 const Home = () => {
 
@@ -8,7 +8,7 @@ const Home = () => {
     <div className="Home">
       <p>Hello</p>
       <div className="solarSystem">
-        <SolarSystem />
+        {/* <SolarSystem /> */}
       </div>
     </div>
   );
