@@ -2,3 +2,10 @@
   display: flex;
   justify-content: center;
 }
+
+.Center {
+  height: 100px;
+  width: 100px;
+  ;
+  background: "#1da8a4";
+}

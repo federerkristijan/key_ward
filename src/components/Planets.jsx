@@ -2,10 +2,6 @@ import React from "react";
 // creadits to https://www.npmjs.com/package/react-planet/v/1.0.1
 import { Planet } from "react-planet";
 
-// import Center from "../views/Center";
-// import Hydro from "../views/Hydro";
-// import Aero from "../views/Aero";
-
 const Planets = () => {
   return (
     <Planet
@@ -19,32 +15,29 @@ const Planets = () => {
           }}
         />
       }
-      hideOrbit
+      orbitRadius={120}
+      hideOrbit={false}
       autoClose
-      orbitRadius={60}
-      bounceOnClose
       rotation={105}
+      bounceOnClose
       bounceDirection="BOTTOM"
     >
-      {/* <Hydro />
-      <Aero />
-      <div /> */}
       <div
         style={{
           height: 70,
           width: 70,
           borderRadius: "50%",
           backgroundColor: "#9257ad",
-          margin: "4rem"
+          margin: "2rem",
         }}
       />
       <div
         style={{
           height: 70,
           width: 70,
-          borderRadius: "50%",
-          backgroundColor: "#9257ad",
-          margin: "4rem"
+          borderRadius: "80%",
+          background: "bisque",
+          margin: "2rem",
         }}
       />
     </Planet>
