@@ -7,6 +7,7 @@
   height: 100px;
   width: 100px;
   background: "#1da8a4";
+  border-radius: "80%";
 }
 
 .Hydro {
@@ -14,5 +15,13 @@
   width: 80;
   border-radius: "80%";
   background: "bisque";
+  margin: "2rem";
+}
+
+.Aero {
+  height: 70;
+  width: 70;
+  border-radius: "50%";
+  background-color: "#9257ad";
   margin: "2rem";
 }

@@ -1,8 +1,12 @@
 import React from 'react'
 
+import Air from "../assets/images/Gasdwarf.png";
+
 const Aero = () => {
   return (
-    <div>Aero</div>
+    <div className='Aero'>
+      <img src={Air} alt="aero" />
+    </div>
   )
 }
 
