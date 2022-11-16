@@ -8,8 +8,8 @@ const Planets = () => {
       centerContent={
         <div
           style={{
-            height: 100,
-            width: 100,
+            height: 120,
+            width: 120,
             borderRadius: "50%",
             backgroundColor: "#1da8a4",
           }}
@@ -19,8 +19,6 @@ const Planets = () => {
       hideOrbit={false}
       autoClose
       rotation={105}
-      bounceOnClose
-      bounceDirection="BOTTOM"
     >
       <div
         style={{
@@ -33,8 +31,8 @@ const Planets = () => {
       />
       <div
         style={{
-          height: 70,
-          width: 70,
+          height: 90,
+          width: 80,
           borderRadius: "80%",
           background: "bisque",
           margin: "2rem",

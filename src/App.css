@@ -6,6 +6,13 @@
 .Center {
   height: 100px;
   width: 100px;
-  ;
   background: "#1da8a4";
+}
+
+.Hydro {
+  height: 90;
+  width: 80;
+  border-radius: "80%";
+  background: "bisque";
+  margin: "2rem";
 }
