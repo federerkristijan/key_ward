@@ -6,11 +6,7 @@ const Home = () => {
 
   return (
     <div className="Home">
-      {/* <p>Hello</p>
-      <div className="solarSystem"> */}
-        {/* <SolarSystem /> */}
         <Planets />
-      {/* </div> */}
     </div>
   );
 };
