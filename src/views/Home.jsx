@@ -1,6 +1,6 @@
 import React from 'react'
 import Planets from '../components/Planets';
-// import SolarSystem from '../SolarSystem/SolarSystem';
+// import Space from "../assets/images/space.png";
 
 const Home = () => {
 

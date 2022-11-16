@@ -3,6 +3,14 @@
   justify-content: center;
 }
 
+.Home {
+  background-image: url("./assets/images/space2.jpg");
+  opacity: 1;
+  background-repeat: no-repeat;
+  /* background-size: 100vh 100vw; */
+  background-size: cover;
+}
+
 .Center {
   height: 100px;
   width: 100px;
