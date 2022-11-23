@@ -13,11 +13,13 @@
     width: 32px;
     border-radius: 100%;
     background: #4d4d4d;
-    transition: all .1s ease-in-out;
+    transition: all 0.1s ease-in-out;
     transition-property: width, height, border;
     will-change: width, height, transform, border;
     pointer-events: none;
-    &.fb, &.insta, &.twitter {
+    &.fb,
+    &.insta,
+    &.twitter {
       height: 60px;
       width: 60px;
       background: transparent;
@@ -26,10 +28,10 @@
       border: solid 5px #3b5998;
     }
     &.insta {
-      border: solid 5px #C13584;
+      border: solid 5px #c13584;
     }
     &.twitter {
-      border: solid 5px #1DA1F2;
+      border: solid 5px #1da1f2;
     }
   }
   .icons-wrapper {
