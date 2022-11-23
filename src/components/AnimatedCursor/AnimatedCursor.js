@@ -1,5 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { motion } from 'framer-motion';
+
+// auto, bio-medicine-wind- marine- airplane
 const icons = [
   {
     iconClass: 'fa-facebook-f',
