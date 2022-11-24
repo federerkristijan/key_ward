@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 // import AnimatedCursor from '../components/AnimatedCursor/AnimatedCursor';
 
 import Air from "../assets/icons/airplane.png";
@@ -8,23 +8,32 @@ import Ship from "../assets/icons/boat.png";
 import Wind from "../assets/icons/wind.png";
 
 const Home = () => {
-
   return (
     <div className="Home">
       <div className="air">
-        <img src={Air} alt='air'/>
+        <a href="/air">
+          <img src={Air} alt="air" />
+        </a>
       </div>
       <div className="car">
-        <img src={Car} alt='car'/>
+        <a href="/car">
+          <img src={Car} alt="car" />
+        </a>
       </div>
       <div className="DNA">
-        <img src={DNA} alt='DNA'/>
+        <a href="/dna">
+          <img src={DNA} alt="DNA" />
+        </a>
       </div>
       <div className="ship">
-        <img src={Ship} alt='ship'/>
+        <a href="ship">
+          <img src={Ship} alt="ship" />
+        </a>
       </div>
       <div className="wind">
-        <img src={Wind} alt='wind'/>
+        <a href="wind">
+          <img src={Wind} alt="wind" />
+        </a>
       </div>
     </div>
   );
