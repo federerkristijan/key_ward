@@ -17,7 +17,7 @@ const Home = () => {
       </div>
       <div className="car">
         <a href="/car">
-          <img src={Car} alt="car" />
+          <img src={Car} alt="car" style={{ width: "85px"}} />
         </a>
       </div>
       <div className="DNA">

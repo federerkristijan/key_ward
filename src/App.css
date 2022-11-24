@@ -4,11 +4,8 @@
 
 .Home {
   display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-items: center;
+  justify-content: space-around;
   padding-top: 15rem;
-  gap: 7rem;
 }
 
 img {
@@ -18,5 +15,5 @@ img {
 }
 
 img:hover {
-  transform: scale(1.5);
+  transform: rotate3d(1, 1, 1, -25deg);
 }
