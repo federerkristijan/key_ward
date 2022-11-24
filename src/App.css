@@ -14,4 +14,9 @@
 img {
   width: 65px;
   height: auto;
+  opacity: 0.9;
+}
+
+img:hover {
+  transform: scale(1.5);
 }
