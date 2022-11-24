@@ -15,7 +15,7 @@ const Home = () => {
         <img src={Air} alt='air'/>
       </div>
       <div className="car">
-        <img src={Car} alt='car'/>
+        <img src={Car} alt='car' style={{ background: "red", color: "white", height: "100%" }}/>
       </div>
       <div className="DNA">
         <img src={DNA} alt='DNA'/>
