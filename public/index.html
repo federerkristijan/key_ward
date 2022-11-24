@@ -40,9 +40,17 @@
         To begin the development, run `npm start` or `yarn start`.
         To create a production bundle, use `npm run build` or `yarn build`.
       -->
+      <!-- credits to https://github.com/mohamedfrindi/Mouse.js#readme-->
     <script type="text/javascript" src="dist/js/mouse-min.js"></script>
     <script>
-      let mouse = new Mouse();
+      let mouse = new Mouse({
+        color: "#fe3636",
+        el: "a , button",
+        mouseHover: false,
+        mousePointer: false,
+        el_hover: true,
+        mouse_clicked: true,
+      });
       mouse.mouse();
     </script>
   </body>
