@@ -12,10 +12,10 @@ const Home = () => {
   return (
     <div className="Home">
       <div className="air">
-        <img src={Air} alt='air' style={{ background: "none" }}/>
+        <img src={Air} alt='air'/>
       </div>
       <div className="car">
-        <img src={Car} alt='car' style={{ background: "red", color: "white", height: "100%" }}/>
+        <img src={Car} alt='car'/>
       </div>
       <div className="DNA">
         <img src={DNA} alt='DNA'/>
