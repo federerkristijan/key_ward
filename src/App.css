@@ -1,35 +1,17 @@
 .App {
-  display: flex;
-  justify-content: center;
+  height: 100%;
 }
 
 .Home {
-  /* background-image: url("./assets/images/space2.jpg"); */
-  opacity: 1;
-  background-repeat: no-repeat;
-  /* background-size: 100vh 100vw; */
-  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 15rem;
+  gap: 7rem;
 }
 
-.Center {
-  height: 100px;
-  width: 100px;
-  background: "#1da8a4";
-  border-radius: "80%";
-}
-
-.Hydro {
-  height: 90px;
-  width: 80px;
-  border-radius: "80%";
-  background: "bisque";
-  margin: "2rem";
-}
-
-.Aero {
-  height: 70px;
-  width: 70px;
-  border-radius: "50%";
-  background-color: "#9257ad";
-  margin: "2rem";
+img {
+  width: 65px;
+  height: auto;
 }
