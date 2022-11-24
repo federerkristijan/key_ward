@@ -1,18 +1,18 @@
 import React from 'react'
 // import AnimatedCursor from '../components/AnimatedCursor/AnimatedCursor';
 
-import Air from "../assets/Icons/Airplane";
-import Car from "../assets/Icons/Car";
-import DNA from "../assets/Icons/DNA_1.png";
-import Ship from "../assets/Icons/ship.png";
-import Wind from "../assets/Icons/wind.png";
+import Air from "../assets/icons/airplane.png";
+import Car from "../assets/icons/Car";
+import DNA from "../assets/icons/dna.png";
+import Ship from "../assets/icons/boat.png";
+import Wind from "../assets/icons/wind.png";
 
 const Home = () => {
 
   return (
     <div className="Home">
       <div className="air">
-        <img src={Air} alt='air'/>
+        <img src={Air} alt='air' style={{ background: "none" }}/>
       </div>
       <div className="car">
         <img src={Car} alt='car' style={{ background: "red", color: "white", height: "100%" }}/>
